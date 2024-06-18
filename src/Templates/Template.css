@@ -1,0 +1,148 @@
+.home__hero-section {
+  margin-bottom: -50px;
+  padding: 100px 0;
+  color: #fff;
+}
+
+.home__hero-row {
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: stretch;
+  margin-right: -15px;
+  margin-bottom: -15px;
+  margin-left: -15px;
+}
+
+.col {
+  flex: 1;
+  flex-basis: 50%;
+  max-width: 50%;
+  margin-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.home__hero-text-wrapper {
+  max-width: 540px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+.home__hero-text-wrapper-founders {
+  max-width: 340px;
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.top-line {
+  margin-bottom: 16px;
+  color: #f00946;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+}
+
+.heading {
+  margin-bottom: 24px;
+  color: #f7f8fa;
+  font-weight: 600;
+  font-size: 33px;
+  line-height: 1.1;
+}
+
+.dark {
+  color: #001a4d;
+}
+
+.darkBg {
+  background: #001a4d;
+}
+
+.light {
+  color: #e6ffff;
+}
+.lightBg {
+  background: #e6ffff;
+}
+
+.home__hero-subtitle {
+  max-width: 440px;
+  margin-bottom: 35px;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.home__hero-img-wrapper {
+  max-width: 555px;
+  margin-bottom: 85px;
+}
+
+.home__hero-img {
+  max-width: 95%;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 10px;
+  padding-right: 0;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  vertical-align: middle;
+  border: 0;
+}
+.about_card {
+  padding: 25px;
+  background: #e6ffff;
+  border-radius: 25px;
+}
+.about_card h1 {
+  color: #001a4d;
+  text-align: center;
+}
+.founders_text {
+  margin-top: -30px;
+  margin-bottom: 60px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 991px) {
+  .container {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column !important;
+    /* flex-wrap: wrap; */
+    align-content: stretch;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__hero-text-wrapper {
+    padding-bottom: 65px;
+  }
+  .row {
+    display: flex;
+    flex-direction: column !important;
+    /* flex-wrap: wrap; */
+    align-content: stretch;
+    margin-right: -15px;
+    margin-bottom: -15px;
+    margin-left: -15px;
+  }
+  .col {
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+}

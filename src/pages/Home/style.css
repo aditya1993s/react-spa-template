@@ -1,0 +1,176 @@
+.blobImgContainer {
+  position: absolute;
+  top: 29%;
+  left: 30%;
+  width: 40%;
+  height: 40%;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.bolbImg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+.blob {
+  position: relative;
+  width: 30%;
+  height: 30%;
+}
+.blobText {
+  float: right;
+}
+.aboutList {
+  color: black;
+  list-style: none;
+}
+.aboutList li::before {
+  display: inline-block;
+  margin-right: 0.7rem;
+  content: "✅";
+}
+.aboutList2 {
+  color: black;
+  list-style: none;
+}
+.aboutList2 li::before {
+  display: inline-block;
+  margin-right: 0.7rem;
+  content: " \261D";
+}
+.aboutList3 {
+  color: black;
+  list-style: none;
+}
+.aboutList3 li::before {
+  display: inline-block;
+  margin-right: 0.7rem;
+  content: " \26F3";
+}
+.aboutList4 {
+  color: black;
+  list-style: none;
+}
+.aboutList4 li::before {
+  display: inline-block;
+  margin-right: 0.7rem;
+  content: " \21E8";
+}
+.aboutList5 {
+  color: black;
+  list-style: none;
+}
+.aboutList5 li::before {
+  display: inline-block;
+  margin-right: 0.7rem;
+  content: " \21E8";
+}
+.aboutList li {
+  display: flex;
+  font-size: 20px;
+  text-align: inherit;
+}
+.aboutList2 li {
+  display: flex;
+  font-size: 20px;
+  text-align: inherit;
+}
+.aboutList3 li {
+  display: flex;
+  font-size: 20px;
+  text-align: inherit;
+}
+.aboutList4 li {
+  display: flex;
+  font-size: 20px;
+  text-align: inherit;
+}
+.aboutList5 li {
+  display: flex;
+  font-size: 19px;
+  text-align: inherit;
+}
+.aboutListHeading {
+  color: #001a4d;
+  font-weight: bold;
+}
+
+.dividerLine {
+  width: 20%;
+  height: 2px;
+  margin-bottom: 25px;
+  color: #001a4d;
+  background-color: #001a4d;
+}
+.about_name {
+  color: #001a4d;
+  font-size: 26px;
+  text-align: center;
+}
+.about_designation {
+  color: #001a4d;
+  font-size: 23px;
+  text-align: center;
+}
+.about_role {
+  color: #001a4d;
+  font-size: 17px;
+  text-align: center;
+}
+.vendors_card {
+  display: grid;
+  padding: 25px;
+  background: white;
+  border-radius: 25px;
+}
+.vendor_image {
+  margin: auto;
+  object-fit: contain;
+}
+
+.vendor1_padding {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.vendor_image3 {
+  width: 30%;
+  border-radius: 25px;
+}
+.vendors_card_3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 25px;
+  background: white;
+  border-radius: 25px;
+}
+.vendors_card_3 h3 {
+  margin-right: 35px;
+  color: #404040;
+  font-weight: bold;
+  font-size: 28px;
+}
+.vendors_card_3 h4 {
+  color: #404040;
+  font-weight: bold;
+  font-size: 16px;
+}
+.vendors_card li {
+  color: #404040;
+}
+.vendors_card ul {
+  justify-content: center;
+  color: #404040;
+}
+.vendors_card div {
+  margin-left: 25px;
+}
+.desigFont {
+  color: #001a4d;
+  font-size: 15px;
+  text-align: center;
+}
